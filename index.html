@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/font-awesome.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- ======================FONTS====================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />    
+    <title>Homepage</title>
+</head>
+<body>
+    <div id="header">
+        <nav id="navbar">
+            <div class="nav-left">
+                <h1><span><i class="fab fa-pagelines"></i></span> Portfolio</h1>
+            </div>
+            <div class="nav-right">
+                    <a href="">Contact</a>
+                    <a href="#skills">Skills</a>
+                    <a href="">Testimonials</a>
+                    <a href="">Services</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#about">About</a>
+                    <a href="">About</a>
+                    <a href="">Home</a>
+            </div>
+            <div class="dropdown-main">
+                <div class="dropdown-btn-outer">
+                    <button class="dropdown-btn" id="dropdown-btn"><i class="fas fa-bars"></i></button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu">
+                    <a href="">Home</a>
+                    <a href="">Contact</a>
+                    <a href="">Blog</a>
+                    <a href="">Testimonials</a>
+                    <a href="">Services</a>
+                    <a href="">About</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="header-main">
+            <div class="header-left">
+                <div class="img-box">
+                    <img src="./images/man_profile.jpg" alt="">     
+                    <div class="social-icons">
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="header-right">
+                <h3>Hello, I'am</h3>
+                <h1>Michael<br><span class="clr-main">Smith</span></h1>
+                <div class="wrapper">
+                    <h2>Open to Work as </h2>
+                    <ul>
+                        <li>Web Developer</li><br>
+                        <li>Web Designer</li><br>
+                        <li>Freelancer</li>
+                    </ul>
+                </div>
+                <div class="btn-box">
+                    <a href="">HIRE ME</a>
+                    <a href="">PROJECTS</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="my-world">
+        <h1 class="heading"><span class="clr-main"><i class="fas fa-caret-right"></i></span> WELCOME TO MY WORLD <span class="clr-main"><i class="fas fa-caret-left"></i></span></h1>
+        <p class="para">I'm a young tech enthasist and entrepreneur who love to take risk. I <br> grew up in a tech family in New York City.</p>
+        <div class="cards">
+            <div class="card">
+                <h2 class="card-icon"><i class="fab fa-react"></i></h2>
+                <h1>Creativity</h1>
+                <p class="card-para">Duis aute irure dolor in it esse cillum dolore eu fugiat nulla pari erunt mollit anim id est laborum.</p>
+            </div>
+            <div class="card">
+                <h2 class="card-icon"><i class="far fa-gem"></i></h2>
+                <h1>Dedication</h1>
+                <p class="card-para">Duis aute irure dolor in it esse cillum dolore eu fugiat nulla pari erunt mollit anim id est laborum.</p>
+            </div>
+            <div class="card">
+                <h2 class="card-icon"><i class="fas fa-fist-raised"></i></h2>
+                <h1>Hard Work</h1>
+                <p  class="card-para">Duis aute irure dolor in it esse cillum dolore eu fugiat nulla pari erunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="achievements">
+        <div class="card">
+            <h2><span class="material-symbols-outlined">
+                grid_view
+                </span></h2>
+            <h1>Digital <br>Products</h1>
+            <h3 id="number"></h3>
+        </div>
+        <div class="card">
+            <h2><span class="material-symbols-outlined">
+                productivity
+                </span></h2>
+            <h1>Clients <br>Worldwide</h1>
+            <h3 id="number1"></h3>
+        </div>
+        <div class="card">
+            <h2><span class="material-symbols-outlined">
+                business_center
+                </span></h2>
+            <h1>Total <br>Projects</h1>
+            <h3 id="number2"></h3>
+        </div>
+        <div class="card">
+            <h2><span class="material-symbols-outlined">
+                social_leaderboard
+                </span></h2>
+            <h1>Awards <br>Won</h1>
+            <h3 id="number3"></h3>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="left">
+            <img src="./images/coding.jpg" alt="">
+        </div>
+        <div class="right">
+            <h2>ABOUT ME</h2>
+            <h1>Senior Web Designer <br>from India</h1>
+            <p class="about-para">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <br><br>Tabore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <div class="details">
+                <div class="detail">
+                    <h4>
+                        <span class="material-symbols-outlined">
+                        person
+                        </span>
+                        &nbsp;&nbsp;NAME
+                    </h4>
+                    <p class="detail-para">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Michael Smith</p>
+                </div>
+                <div class="detail">
+                    <h4>
+                        <span class="material-symbols-outlined">
+                        mail
+                        </span>
+                        &nbsp;&nbsp;EMAIL
+                    </h4>
+                    <p class="detail-para">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hello@michaelsmith.com</p>
+                </div>
+                <div class="detail">
+                    <h4>
+                        <span class="material-symbols-outlined">
+                            call
+                            </span>
+                        &nbsp;&nbsp;PHONE
+                    </h4>
+                    <p class="detail-para">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91-9988776655</p>
+                </div>
+                <div class="detail">
+                    <h4>
+                        <span class="material-symbols-outlined">
+                            person_3
+                            </span>
+                        &nbsp;&nbsp;AGE
+                    </h4>
+                    <p class="detail-para">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;24</p>
+                </div>
+                <div class="detail">
+                    <h4>
+                        <span class="material-symbols-outlined">
+                            school
+                            </span>
+                        &nbsp;&nbsp;EDUCATION
+                    </h4>
+                    <p class="detail-para">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bachelors in Engineering</p>
+                </div>
+                <div class="detail">
+                    <h4>
+                        <span class="material-symbols-outlined">
+                            location_on
+                            </span>
+                        &nbsp;&nbsp;LOCATION
+                    </h4>
+                    <p class="detail-para">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pune</p>
+                </div>
+                
+            </div>
+            <a href="">DOWNLOAD CV</a>
+        </div>
+    </div>
+
+    <div id="skills">
+        <div class="left">
+            <h4>MY SKILLS</h4>
+            <h1>I'm great in what I do <br> and I'm loving it</h1>
+            <p class="skill-para">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+                dolore eu fugiat nulla pariat non proident, sunt in culpa qui officia 
+                deserunt mollit anim id est laborum.
+            </p>
+        </div>
+        <div class="right">
+            <div class="skill_bar">
+                <div class="info">
+                    <p class="info-para">Competitive Programming</p>
+                    <P id="num"></P>
+                </div>
+                <div class="bar">
+                    <span class="html"></span>
+                </div>
+            </div>    
+            <div class="skill_bar">
+                <div class="info">
+                    <p class="info-para">Algorithm & Data Structure</p>
+                    <P id="num1"></P>
+                </div>
+                <div class="bar">
+                    <span class="css"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p class="info-para">Game Development</p>
+                    <P id="num2"></P>
+                </div>
+                <div class="bar">
+                    <span class="sass"></span>
+                </div>
+      </div>
+      <div class="skill_bar">
+                <div class="info">
+                    <p class="info-para">Web Application</p>
+                    <P id="num3"></P>
+                </div>
+                <div class="bar">
+                    <span class="react"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <h1>PORTFOLIO</h1>
+        <p class="portfolio-para">Duis aute irure dolor in reprehen pteur sint occaecat cupidatat non <br>proident, sunt in culim id est.</p>
+        <div class="links">
+            <a class="port-link current">All</a>
+            <a class="port-link">Development</a>
+            <a class="port-link">Design</a>
+            <a class="port-link">Application</a>
+        </div>
+        <div id="All" class="img-cards">
+            <div class="img">
+                <img src="./images/keyboard.jpg" alt="">
+                <div class="overlay">
+                    <a href="" id="portfolio-info"><span class="material-symbols-outlined">
+                        add
+                        </span></a>
+                    <p class="overlay-para">PROGRAMMING</p>
+                    <h3>Website Design For <br>Rainy Design</h3>
+                </div>
+            </div>
+            <div class="img">
+                <img src="./images/clement-helardot-95YRwf6CNw8-unsplash.jpg" alt="">
+                <div class="overlay">
+                    <a href=""><span class="material-symbols-outlined">
+                        add
+                        </span></a>
+                    <p class="overlay-para">PROGRAMMING</p>
+                    <h3>Website Design For <br>Rainy Design</h3>
+                </div>
+            </div>
+            <div class="img">
+                <img src="./images/clement-helardot-95YRwf6CNw8-unsplash.jpg" alt="">
+                <div class="overlay">
+                    <a href=""><span class="material-symbols-outlined">
+                        add
+                        </span></a>
+                    <p class="overlay-para">PROGRAMMING</p>
+                    <h3>Website Design For <br>Rainy Design</h3>
+                </div>
+                
+            </div>
+            <div class="img">
+                <img src="./images/clement-helardot-95YRwf6CNw8-unsplash.jpg" alt="">
+                <div class="overlay">
+                    <a href=""><span class="material-symbols-outlined">
+                        add
+                        </span></a>
+                    <p class="overlay-para">PROGRAMMING</p>
+                    <h3>Website Design For <br>Rainy Design</h3>
+                </div>
+                
+            </div>
+            <div class="img">
+                <img src="./images/clement-helardot-95YRwf6CNw8-unsplash.jpg" alt="">
+                <div class="overlay">
+                    <a href=""><span class="material-symbols-outlined">
+                        add
+                        </span></a>
+                    <p class="overlay-para">PROGRAMMING</p>
+                    <h3>Website Design For <br>Rainy Design</h3>
+                </div>
+                
+            </div>
+            <div class="img">
+                <img src="./images/clement-helardot-95YRwf6CNw8-unsplash.jpg" alt="">
+                <div class="overlay">
+                    <a href=""><span class="material-symbols-outlined">
+                        add
+                        </span></a>
+                    <p class="overlay-para">PROGRAMMING</p>
+                    <h3>Website Design For <br>Rainy Design</h3>
+                </div>
+                
+            </div>
+        </div>
+        <div id="Development" class="img-cards">
+            <div class="img">
+                <img src="./images/devp.jpg" alt="">
+                <div class="overlay">
+                    <a href="" id="portfolio-info"><span class="material-symbols-outlined">
+                        add
+                        </span></a>
+                    <p class="overlay-para">PROGRAMMING</p>
+                    <h3>Website Design For <br>Rainy Design</h3>
+                </div>
+            </div>
+            <div class="img">
+                <img src="./images/clement-helardot-95YRwf6CNw8-unsplash.jpg" alt="">
+                <div class="overlay">
+                    <a href=""><span class="material-symbols-outlined">
+                        add
+                        </span></a>
+                    <p class="overlay-para">PROGRAMMING</p>
+                    <h3>Website Design For <br>Rainy Design</h3>
+                </div>
+            </div>
+            <div class="img">
+                <img src="./images/clement-helardot-95YRwf6CNw8-unsplash.jpg" alt="">
+                <div class="overlay">
+                    <a href=""><span class="material-symbols-outlined">
+                        add
+                        </span></a>
+                    <p class="overlay-para">PROGRAMMING</p>
+                    <h3>Website Design For <br>Rainy Design</h3>
+                </div>
+                
+            </div>
+            <div class="img">
+                <img src="./images/clement-helardot-95YRwf6CNw8-unsplash.jpg" alt="">
+                <div class="overlay">
+                    <a href=""><span class="material-symbols-outlined">
+                        add
+                        </span></a>
+                    <p class="overlay-para">PROGRAMMING</p>
+                    <h3>Website Design For <br>Rainy Design</h3>
+                </div>
+                
+            </div>
+            <div class="img">
+                <img src="./images/clement-helardot-95YRwf6CNw8-unsplash.jpg" alt="">
+                <div class="overlay">
+                    <a href=""><span class="material-symbols-outlined">
+                        add
+                        </span></a>
+                    <p class="overlay-para">PROGRAMMING</p>
+                    <h3>Website Design For <br>Rainy Design</h3>
+                </div>
+                
+            </div>
+            <div class="img">
+                <img src="./images/clement-helardot-95YRwf6CNw8-unsplash.jpg" alt="">
+                <div class="overlay">
+                    <a href=""><span class="material-symbols-outlined">
+                        add
+                        </span></a>
+                    <p class="overlay-para">PROGRAMMING</p>
+                    <h3>Website Design For <br>Rainy Design</h3>
+                </div>
+                
+            </div>
+        </div>
+        <div id="Design" class="img-cards">
+            <div class="img">
+                <img src="./images/design (1).jpg" alt="">
+                <div class="overlay">
+                    <a href="" id="portfolio-info"><span class="material-symbols-outlined">
+                        add
+                        </span></a>
+                    <p class="overlay-para">PROGRAMMING</p>
+                    <h3>Website Design For <br>Rainy Design</h3>
+                </div>
+            </div>
+            <div class="img">
+                <img src="./images/clement-helardot-95YRwf6CNw8-unsplash.jpg" alt="">
+                <div class="overlay">
+                    <a href=""><span class="material-symbols-outlined">
+                        add
+                        </span></a>
+                    <p>PROGRAMMING</p>
+                    <h3>Website Design For <br>Rainy Design</h3>
+                </div>
+                
+            </div>
+            <div class="img">
+                <img src="./images/clement-helardot-95YRwf6CNw8-unsplash.jpg" alt="">
+                <div class="overlay">
+                    <a href=""><span class="material-symbols-outlined">
+                        add
+                        </span></a>
+                    <p class="overlay-para">PROGRAMMING</p>
+                    <h3>Website Design For <br>Rainy Design</h3>
+                </div>
+                
+            </div>
+            <div class="img">
+                <img src="./images/clement-helardot-95YRwf6CNw8-unsplash.jpg" alt="">
+                <div class="overlay">
+                    <a href=""><span class="material-symbols-outlined">
+                        add
+                        </span></a>
+                    <p class="overlay-para">PROGRAMMING</p>
+                    <h3>Website Design For <br>Rainy Design</h3>
+                </div>
+                
+            </div>
+            <div class="img">
+                <img src="./images/clement-helardot-95YRwf6CNw8-unsplash.jpg" alt="">
+                <div class="overlay">
+                    <a href=""><span class="material-symbols-outlined">
+                        add
+                        </span></a>
+                    <p class="overlay-para">PROGRAMMING</p>
+                    <h3>Website Design For <br>Rainy Design</h3>
+                </div>
+                
+            </div>
+        </div>
+        <div id="Application" class="img-cards">
+            <div class="img">
+                <img src="./images/apps.jpg" alt="">
+                <div class="overlay">
+                    <a href="" id="portfolio-info"><span class="material-symbols-outlined">
+                        add
+                        </span></a>
+                    <p class="overlay-para">PROGRAMMING</p>
+                    <h3>Website Design For <br>Rainy Design</h3>
+                </div>
+            </div>
+            <div class="img">
+                <img src="./images/clement-helardot-95YRwf6CNw8-unsplash.jpg" alt="">
+                <div class="overlay">
+                    <a href=""><span class="material-symbols-outlined">
+                        add
+                        </span></a>
+                    <p class="overlay-para">PROGRAMMING</p>
+                    <h3>Website Design For <br>Rainy Design</h3>
+                </div>
+            </div>
+            <div class="img">
+                <img src="./images/clement-helardot-95YRwf6CNw8-unsplash.jpg" alt="">
+                <div class="overlay">
+                    <a href=""><span class="material-symbols-outlined">
+                        add
+                        </span></a>
+                    <p class="overlay-para">PROGRAMMING</p>
+                    <h3>Website Design For <br>Rainy Design</h3>
+                </div>
+                
+            </div>
+            <div class="img">
+                <img src="./images/clement-helardot-95YRwf6CNw8-unsplash.jpg" alt="">
+                <div class="overlay">
+                    <a href=""><span class="material-symbols-outlined">
+                        add
+                        </span></a>
+                    <p class="overlay-para">PROGRAMMING</p>
+                    <h3>Website Design For <br>Rainy Design</h3>
+                </div>
+                
+            </div>
+            <div class="img">
+                <img src="./images/clement-helardot-95YRwf6CNw8-unsplash.jpg" alt="">
+                <div class="overlay">
+                    <a href=""><span class="material-symbols-outlined">
+                        add
+                        </span></a>
+                    <p class="overlay-para">PROGRAMMING</p>
+                    <h3>Website Design For <br>Rainy Design</h3>
+                </div>
+                
+            </div>
+            <div class="img">
+                <img src="./images/clement-helardot-95YRwf6CNw8-unsplash.jpg" alt="">
+                <div class="overlay">
+                    <a href=""><span class="material-symbols-outlined">
+                        add
+                        </span></a>
+                    <p class="overlay-para">PROGRAMMING</p>
+                    <h3>Website Design For <br>Rainy Design</h3>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+
+    <div id="services">
+        <h3>SERVICES</h3>
+        <p class="services-para">Duis aute irure dolor in reprehen pteur sint occaecat cupidatat non <br>proident, sunt in culim id est.</p>
+        <div class="service-cards">
+            <div class="card">
+                <div class="icon-box">
+                    <span class="material-symbols-outlined">
+                        desktop_windows
+                    </span>
+                </div>
+                <h2>Desktop Apps</h2>
+                <p class="card-box-para">Yeprehe nderit in voluptate velit esse prehen pteur sint occaecat cupidat cillum dolore.</p>
+            </div>
+            <div class="card">
+                <div class="icon-box">
+                    <span class="material-symbols-outlined">
+                        phone_android
+                    </span>
+                </div>
+                <h2>Mobile Apps</h2>
+                <p class="card-box-para">Yeprehe nderit in voluptate velit esse prehen pteur sint occaecat cupidat cillum dolore.</p>
+            </div>
+            <div class="card">
+                <div class="icon-box">
+                    <span class="material-symbols-outlined">
+                        web
+                        </span>
+                </div>
+                <h2>Web Development</h2>
+                <p class="card-box-para">Yeprehe nderit in voluptate velit esse prehen pteur sint occaecat cupidat cillum dolore.</p>
+            </div>
+            <div class="card">
+                <div class="icon-box">
+                    <span class="material-symbols-outlined">
+                        display_settings
+                        </span>
+                </div>
+                <h2>Web Consulting</h2>
+                <p class="card-box-para">Yeprehe nderit in voluptate velit esse prehen pteur sint occaecat cupidat cillum dolore.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="resume">
+        <h3>MY RESUME</h3>
+        <p class="res-para">Duis aute irure dolor in reprehen pteur sint occaecat cupidatat non <br>proident, sunt in culim id est.</p>
+        <div class="details">
+            <div class="education">
+                <h1><span class="clr-main">M</span>y <span class="clr-main">E</span>ducation</h1>
+                <div class="ed-main">
+                    <div class="row">
+                        <p class="year">2013-2015</p>
+                        <div class="connector"></div>
+                        <div class="icon-box">
+                            <span class="material-symbols-outlined">
+                                school
+                                </span>
+                        </div>
+                        <div class="content">
+                            <h4>Diploma in Algorythm</h4>
+                            <h5>UNIVERSITY OF RAJSHAHI</h5>
+                            <p class="ed-para">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p class="year">2010-2013</p>
+                        <div class="connector"></div>
+                        <div class="icon-box">
+                            <span class="material-symbols-outlined">
+                                school
+                                </span>
+                        </div>
+                        <div class="content">
+                            <h4>Bachelor in Computer Seience</h4>
+                            <h5>UNIVERSITY OF DHAKA</h5>
+                            <p class="ed-para">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p class="year">2008-2010</p>
+                        <div class="icon-box">
+                            <span class="material-symbols-outlined">
+                                school
+                                </span>
+                        </div>
+                        <div class="content">
+                            <h4>Diploma in Graphic Design</h4>
+                            <h5>NEW YORK COLLAGE</h5>
+                            <p class="ed-para">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="education">
+                <h1><span class="clr-main">M</span>y <span class="clr-main">E</span>xperience</h1>
+                <div class="ed-main">
+                    <div class="row">
+                        <div class="connector"></div>
+                        <p class="year">2019-2021</p>
+                        <div class="icon-box">
+                            <span class="material-symbols-outlined">
+                                school
+                                </span>
+                        </div>
+                        <div class="content">
+                            <h4>Web Developer</h4>
+                            <h5>EASY COMPUTERS</h5>
+                            <p class="ed-para">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="connector"></div>
+                        <p class="year">2019-2015</p>
+                        <div class="icon-box">
+                            <span class="material-symbols-outlined">
+                                school
+                                </span>
+                        </div>
+                        <div class="content">
+                            <h4>Full Stack Developer</h4>
+                            <h5>RAINY DESIGN</h5>
+                            <p class="ed-para">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p class="year">2010-2015</p>
+                        <div class="icon-box">
+                            <span class="material-symbols-outlined">
+                                school
+                                </span>
+                        </div>
+                        <div class="content">
+                            <h4>Graphic Design</h4>
+                            <h5>XINS VIDEO</h5>
+                            <p class="ed-para">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia mollit anim id est laborum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="testimonials">
+        <h3>TESTIMONIALS</h3>
+        <p class="test-para">Duis aute irure dolor in reprehen pteur sint occaecat cupidatat non <br>proident, sunt in culim id est.</p>
+
+        <div class="row">
+            <div class="card">
+                <div class="card-icon-box">
+                    <span class="material-symbols-outlined">
+                    forum
+                    </span>
+                </div>
+                <p class="card-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, totam atque dignissimos quas placeat magni error rem, inventore libero exercitationem, id cupiditate voluptates in est.</p>
+                <div class="profile">
+                    <div class="left">
+                        <img src="./images/profile.jpg" alt="">
+                    </div>
+                    <div class="right">
+                        <h4>Mark Anthony</h4>
+                        <p>Web Developer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon-box">
+                    <span class="material-symbols-outlined">
+                    forum
+                    </span>
+                </div>
+                <p class="card-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, totam atque dignissimos quas placeat magni error rem, inventore libero exercitationem, id cupiditate voluptates in est.</p>
+                <div class="profile">
+                    <div class="left">
+                        <img src="./images/profile.jpg" alt="">
+                    </div>
+                    <div class="right">
+                        <h4>Mark Anthony</h4>
+                        <p>Web Developer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-icon-box">
+                    <span class="material-symbols-outlined">
+                    forum
+                    </span>
+                </div>
+                <p class="card-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, totam atque dignissimos quas placeat magni error rem, inventore libero exercitationem, id cupiditate voluptates in est.</p>
+                <div class="profile">
+                    <div class="left">
+                        <img src="./images/profile.jpg" alt="">
+                    </div>
+                    <div class="right">
+                        <h4>Mark Anthony</h4>
+                        <p class="profile-right-para">Web Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="companies">
+        <div class="logos">
+            <div class="logo-main">
+                <img src="./images/partner_logo_1.png" alt="">
+            </div>
+            <div class="logo-main">
+                <img src="./images/partner_logo_2.png" alt="">
+            </div>
+            <div class="logo-main">
+                <img src="./images/partner_logo_3.png" alt="">
+            </div>
+            <div class="logo-main">
+                <img src="./images/partner_logo_4.png" alt="">
+            </div>
+            <div class="logo-main">
+                <img src="./images/partner_logo_5.png" alt="">
+            </div>
+            <div class="logo-main">
+                <img src="./images/partner_logo_6.png" alt="">
+            </div>
+            <div class="logo-main">
+                <img src="./images/partner_logo_7.png" alt="">
+            </div>
+            <div class="logo-main">
+                <img src="./images/partner_logo_8.png" alt="">
+            </div>
+        </div>
+    </div>
+      <div id="contact">
+        <h3>GET IN TOUCH</h3>
+        <p class="contact-para">Duis aute irure dolor in reprehen pteur sint occaecat cupidatat non <br>proident, sunt in culim id est.</p>
+        <div class="cont-page-box">
+            <div class="contact-page">
+               <div class="icon-cont">
+                <i class="solid fas fa-map-marker-alt"></i>
+               </div>
+               <div class="cont-page">
+                <h4>Address</h4>
+                <p class="cont-para">Bardeshi, Amin Bazar, New York</p>
+               </div>
+            </div>
+            <div class="contact-page">
+                <div class="icon-cont">
+                    <i class="solid fas fa-map-marker-alt"></i>
+                   </div>
+                   <div class="cont-page">
+                    <h4>Phone</h4>
+                    <p class="cont-para">+01234 567 890</p>
+                   </div>
+            </div>
+            <div class="contact-page">
+                <div class="icon-cont">
+                    <i class="solid fas fa-map-marker-alt"></i>
+                   </div>
+                   <div class="cont-page">
+                    <h4>Email</h4>
+                    <p class="cont-para">hello@poriweb.com</p>
+                   </div>
+            </div>
+            
+        </div>
+        <div class="cont-message">
+              <div class="left-cont-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15135.445732555887!2d73.81149916967787!3d18.489934747840636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bfe79bf771d7%3A0xac81e25be4cc4bf!2sKarve%20Nagar%2C%20Pune%2C%20Maharashtra%20411052!5e0!3m2!1sen!2sin!4v1680000200950!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <div class="right-cont-msg">
+                    <h2>Write me a message</h2>
+                    <div class="input-box">
+                        <input type="text" placeholder="Name*">
+                        <input type="email" name="" id="" placeholder="Email*">
+                    </div>
+                        <textarea class="textarea-box" name="text" id="" cols="30" rows="10" placeholder="your message here*"></textarea>
+                       <button class="cont-btn">SEND MESSAGE</button>
+              </div>
+        </div>
+      </div>
+       <div id="fungi">
+         <h1><img src="https://ethemestudio.com/demo/fungi/9_home_classic/image/fungi_logo.png" alt=""></h1>
+         <p class="fungi-para">Duis aute irure dolor in reprehen pteur sint occaecat cupidatat non <br>
+            proident, sunt in culim id est.</p>
+            <div class="fungi-icon-page">
+                <div class="icon"><i class="solid fab fa-facebook-f"></i></div>
+                <div class="icon"><i class=" solid fab fa-twitter"></i></div>
+                <div class="icon"><i class=" solid fab fa-linkedin-in"></i></div>
+                <div class="icon"><i class="solid fab fa-youtube"></i></div>
+                <div class="icon"><i class=" solid fab fa-instagram"></i></div>
+            </div>
+            <div class="footer">
+                <p class="footer-para">All rights reserved © 2023 eThemeStudio</p>
+                <p class="footer-para">Terms & Condition Privacy Policy</p>
+            </div>
+       </div>
+
+    <!-- ==================JAVASCRIPT====================== -->
+    <script src="./js/font-awesome.js"></script>
+    <script src="./js/flickity.pkgd.min.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/proper.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
